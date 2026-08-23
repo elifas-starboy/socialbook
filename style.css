@@ -680,3 +680,21 @@ nav {
     bottom: 0;
     left: 0;
 }
+
+/* ============== media query for home page ================ */
+
+@media (max-width: 900px){
+    .right-sidebar {
+        display: none;
+    }
+    .left-sidebar {
+        display: none;
+    }
+
+    nav {
+        flex-wrap: wrap;
+    }
+    .search-box {
+        display: none;
+    }
+}
