@@ -744,5 +744,27 @@ nav {
 
 /* ============ Media query for the profile page ========== */
 @media (max-width: 900px) {
-    
+    .profile-container {
+        padding: 20px 5%;
+    }
+    .profile-details {
+        flex-wrap: wrap;
+    }
+    .pd-right {
+        text-align: left;
+        margin-top: 15px;
+    }
+    .pd-right button {
+        margin-left: 0;
+        margin-right: 10px;
+    }
+    .pd-row div h3 {
+        font-size: 1.6rem;
+    }
+    .profile-info {
+        flex-wrap: wrap;
+    }
+    .info-col, .post-col {
+        flex-basis: 100%;
+    }
 }
