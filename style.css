@@ -27,7 +27,7 @@ p, a, span {
 }
 
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Poppins', Arial;
     background: var(--body-color);
     transition: background 0.3s;
 }
